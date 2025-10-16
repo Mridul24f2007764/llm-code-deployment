@@ -4,7 +4,7 @@ from fastapi.responses import JSONResponse
 app = FastAPI()
 
 # your secret (same as submitted in Google Form)
-SECRET = "your_shared_secret"
+SECRET = "mridul123"
 
 @app.post("/api-endpoint")
 async def receive_request(request: Request):
